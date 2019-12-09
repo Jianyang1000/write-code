@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        #app {
+            background-color: #ddd;
+        }
+
+        .toolBox {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toolBox">
+        <label><input type="radio" value="pen" name="penType" checked>画线</label>
+        <label><input type="radio" value="eraser" name="penType">擦除</label>
+        <button id=save>保存</button>
+    </div>
+    <canvas id=app></canvas>
+
+    <script>
+        let type
+        let previousPoint
+        let screenWidth = document.documentElement.clientWidth
+        let screenHeight = document.documentElement.clientHeight
+
+        app.width = screenWidth
+        app.height = screenHeight
+        app.addEventListener('touchstart', function (e) {
+            type = document.querySelector('input[name="penType"]:checked').value
+            console.log(type)
+
+        })
+        app.addEventListener('touchmove', function (e) {
+            e.preventDefault()
+            let { clientX, clientY } = e.touches[0]
+            const content = app.getContext('2d');
+
+            if (type === "pen" && previousPoint) {
+
+                content.beginPath();
+                content.moveTo(previousPoint.clientX, previousPoint.clientY);
+                content.lineTo(clientX, clientY);
+                content.stroke();
+            }
+            else if (type === "eraser") {
+                content.clearRect(clientX, clientY, 30, 30);
+            }
+            previousPoint = {
+                clientX,
+                clientY
+            }
+
+        })
+
+
+        app.addEventListener('touchend', function () {
+            previousPoint = null
+        })
+        save.onclick = function () {
+            var canvas = document.getElementById("app")
+            var data = canvas.toDataURL("image/png")
+            var theWindow = window.open('about:_blank', 'from the canvas')
+            theWindow.document.write("<img src='" + data + "' alt='from the cavas' />")
+        }
+    </script>
+</body>
+
+</html>

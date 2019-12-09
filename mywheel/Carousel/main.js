@@ -43,7 +43,7 @@ function autoPlay() {
         //这个是判断动画结束后，重新到第一张图片的时候立即加上动画，并停止监听banner的动画结束事件
         if(currentIndex === 0) {
             banner.style.transition = 'transform 0.5s'
-            currentIndex++   
+            currentIndex++
             banner.removeEventListener('transitionend',fn)
         }
         go(currentIndex)
@@ -56,4 +56,3 @@ function go(index) {
     banner.style.transform = 'translateX(' + -index * width + 'px)'
 }
 
-autoPlay()

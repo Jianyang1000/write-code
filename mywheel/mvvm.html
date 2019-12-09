@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inputA">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        obj = {}
+!(function(){
+    var name = 'jianyang'
+    Object.defineProperty(obj,'name',{
+        // 默认值
+        get: function(){
+            return name
+        },
+        set: function(xxx){
+            name = xxx
+            render()
+        }
+    })
+})()
+
+render = function () {
+    inputA.value = obj.name
+}
+    
+$('#inputA').on('input',function(){
+  console.log(1)
+    var value = $('#inputA').val()
+    obj.name = value
+    console.log(inputA.value)
+})
+
+
+    </script>
+</body>
+</html>

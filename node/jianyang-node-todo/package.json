@@ -1,0 +1,16 @@
+{
+  "name": "jianyang-node-todo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin":{
+    "t": "cli.js"
+  },
+  "files":[
+    "*.js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.0"
+  }
+}
