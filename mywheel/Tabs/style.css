@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.tabs > li {
+    padding: 0.3em 1.2em;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs .active {
+    background-color: yellow;
+}
+
+.tabs-content li {
+    display: none;
+    border: 1px solid red;
+    padding: 5em 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-content .active {
+    display: flex;
+}
