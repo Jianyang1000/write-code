@@ -1,5 +1,5 @@
 {
-  "name": "jianyang-node-todo",
+  "name": "jianyang-node-server",
   "version": "0.0.1",
   "main": "index.js",
   "bin": {
@@ -8,13 +8,9 @@
   "files": [
     "*.js"
   ],
-  "scripts": {
-    "test": "jest"
-  },
   "license": "MIT",
   "devDependencies": {
-    "commander": "^4.0.1",
-    "inquirer": "^7.0.0",
-    "jest": "^24.9.0"
+    "@types/node": "^12.12.17",
+    "commander": "^4.0.1"
   }
 }

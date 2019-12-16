@@ -5,9 +5,9 @@ const homedir = os.homedir()
 const dbPath = path.join(homedir, '.todo')
 
 const db = {
-    read: () => {
+    read: (path = dbPath) => {
         return new Promise((resolve, reject) => {
-            fs.readFile(dbPath, { flag: 'a+' }, (error, data) => {
+            fs.readFile(path, { flag: 'a+' }, (error, data) => {
                 if (error) return reject(error)
                 // 检查是否文件有内容
                 let list
@@ -21,10 +21,10 @@ const db = {
             })
         })
     },
-    write: (list) => {
+    write: (list,path = dbPath) => {
         return new Promise((resolve, reject) => {
             const string = JSON.stringify(list)
-            fs.writeFile(dbPath, string, (error => {
+            fs.writeFile(path, string, (error => {
                 if (error) return reject(error)
                 resolve()
             }))

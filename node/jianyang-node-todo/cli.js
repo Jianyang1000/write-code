@@ -19,10 +19,10 @@ program
     .description('clear list as []')
     .action(() => {
         api.clear()
-        
+
     });
 
-    api.showAll()
+api.showAll()
 program.parse(process.argv);
 
 
