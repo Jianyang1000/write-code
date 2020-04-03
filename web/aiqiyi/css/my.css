@@ -1,0 +1,232 @@
+header {
+    height: 44px;
+    background-color: #191919;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    display: inline-block;
+    width: 73px;
+    height: 24px;
+    background: url('../img/iqiyi-logo.png') no-repeat;
+    background-size: 73px 24px;
+    margin-left: 13px;
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+
+header .right a:first-child {
+    color: #b0b0b0;
+    font-size: 13px;
+    margin-right: 13px;
+}
+
+header .right a:last-child {
+    display:inline-block;
+    background: url('../img/watch_more2.png') no-repeat;
+    width: 59px;
+    height: 20px;
+    background-size: 59px 20px;
+    vertical-align: bottom;
+    margin-right: 12px;
+}
+
+
+.person_info {
+    padding: 64px 0 15px 12px;
+    display: flex;
+    align-items:flex-start;
+}
+
+.person_info .name {
+    font-size: 15px;
+}
+
+.person_info > div {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.person_info i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/vip-grade-icon.png') no-repeat;
+    background-size: 192px 48px;
+    background-position: -48px -24px;
+}
+
+.person_info img{
+    display:inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: bottom;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.play_record {
+    border-top: 7px solid #f7f7f7;
+}
+
+
+.play_record .do_title{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.play_record > ul > li img{
+    width: 105px;
+}
+
+.play_record > ul {
+    display: flex;
+    width: 375px;
+    overflow: scroll;
+}
+
+.play_record > ul > li {
+    padding-left: 8px;
+}
+
+.play_record > ul > li > p {
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+.play_record > ul > li:first-child {
+    padding-left: 3px;
+}
+
+
+.bofang {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/my_sprite.png') no-repeat;
+    background-size: 160px 80px;
+    margin-right: 8px;
+    background-position: -20px 0;
+}
+
+.do > li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 15px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.do > li:first-child {
+    border-top: 1px solid #f0f0f0;
+}
+
+.do > li > ul {
+    overflow: scroll;
+    display: flex;
+}
+
+.do .img_wrap {
+    overflow: hidden;
+}
+
+.do .img_wrap img {
+    display: inline-block;
+    width: 105px;
+}
+
+
+
+.do > li i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/my_sprite.png') no-repeat;
+    background-size: 160px 80px;
+    margin-right: 8px;
+}
+
+
+.do .dianzan {
+    background-position: -120px -40px;
+}
+
+.do .shoucang {
+    background-position: -40px 0;
+}
+
+.do .guanzhu {
+    background-position: -60px 0;
+}
+
+.do .zhanghu {
+    background-position: -80px 0;
+}
+
+.do .zhuiju {
+    background-position: -100px 0;
+}
+
+.do .jieqian {
+    background-position: -20px -60px;
+}
+
+.do .xinyong {
+    background-position: -140px -40px;
+}
+
+.do .anquan {
+    background-position: -120px 0;
+}
+
+.do .yinsi {
+    background-position: -100px -40px;
+}
+
+.do .yijian {
+    background-position: 0 -60px;
+}
+
+.do .about {
+    background-position: -140px 0;
+}
+
+.do .bold_border {
+    border-bottom: 7px solid #f7f7f7;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100px;
+}

@@ -4,8 +4,8 @@ function bind(argThis,...args){
         throw new Error("bind 必须调用在函数身上");
     }
     function result(...args2){
-        // this instanceof result 一个意思和下面的，所以说instanceof是语法糖? 
         // 业务场景不一样吧!也可以做区分,当真的想基于result而不是result.prototype的时候可以用下面一种
+        // isProtorypeOf是只在this上查找， instanceof 是在this的原型上查找
         return fn.call(result.prototype.isPrototypeOf(this) ? this : argThis,...args,...args2)
     }
     result.prototype = fn.prototype

@@ -1,0 +1,165 @@
+
+
+.carousel {
+    position: relative;
+    
+}
+.carouselImg {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carouselImg > li{
+    width: 375px;
+    flex-shrink: 0;
+}
+.carouselImg > li > img{
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.carouselTool {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.carouselTool > li {
+    width: 7px;
+    height: 3px;
+    margin-left: 3px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.carouselTool .selected {
+    background-color: #00cc36;
+}
+
+.content_box {
+    padding: 10px;
+}
+
+.open_app {
+    padding-bottom: 10px;
+}
+
+.open_app img{
+    width: 355px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.introduce {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.introduce > div {
+    width: 175px;
+}
+
+.introduce > div .title_img > img {
+    display: block;
+    margin-top: -101px;
+    width: 100%;
+}
+
+.introduce > div .title_img {
+    width: 175px;
+    height: 99px;
+}
+
+.introduce > div .title_img:before {
+    content: '';
+    display: block;
+    padding-top: 101px;
+    background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
+    background-size: 40px auto;
+}
+
+.introduce > div > .introduceInfo {
+    padding: 5px 8px 18px 2px;
+}
+
+.introduce > div > .introduceInfo > h2 {
+    color: #333;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.introduce > div > .introduceInfo > p {
+    color: #999;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+.history_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 2px;
+    line-height: 38px;
+}
+
+.history_title .title{
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+}
+
+.history_title .all {
+    color: #666;
+    font-size: 13px;
+}
+
+
+.history_watch_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.history_watch_content > div {
+    width: 175px;
+}
+
+.history_watch_content > div .title_img > img {
+    display: block;
+    margin-top: -101px;
+    width: 175px;
+}
+
+.history_watch_content > div .title_img {
+    width: 175px;
+    height: 99px;
+}
+
+.history_watch_content > div .title_img:before {
+    content: '';
+    display: block;
+    padding-top: 101px;
+    background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
+    background-size: 40px auto;
+}
+
+.history_watch_content > div > .introduceInfo {
+    padding: 5px 8px 18px 2px;
+}
+
+.history_watch_content > div > .introduceInfo > h2 {
+    color: #333;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.history_watch_content > div > .introduceInfo > p {
+    color: #999;
+    font-size: 13px;
+    line-height: 15px;
+}

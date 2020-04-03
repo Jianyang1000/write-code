@@ -6,13 +6,19 @@ const bind2 = require('../src/index')
 Function.prototype.bind2 = bind2
 const assert = chai.assert;
 
+/**
+ *     bind() 方法创建一个新的函数，在 bind() 被调用时，这个新函数的 this 被指定为 bind() 的第一个参数，而其余参数将作为新函数的参数，供调用时使用。
+ */
+
+
+
 describe('bind',() => {
     it('能返回this',() => {
         const fn = function(){
             return this
         }
         var fn2 = fn.bind2({name:'jianyang'})
-        assert(fn2().name === 'jianyang')        
+        assert(fn2().name === 'jianyang')
     })
     it('能通过bind传参数并返回值',() => {
         //  这里不能用箭头函数，因为箭头函数不能设置this值，箭头函数的this是在定义的时候就确定了的
@@ -38,7 +44,7 @@ describe('bind',() => {
             this.p1 = p1
             this.p2 = p2
         }
-        const fn2 = fn.bind(undefined,123,456)
+        const fn2 = fn.bind2(undefined,123,456)
         const obj = new fn2()
         assert(obj.p1 === 123)
         assert(obj.p2 === 456)
@@ -49,7 +55,7 @@ describe('bind',() => {
             this.p2 = p2
         }
         fn.prototype.sayhi = () => {return "hi jianyang!"}
-        const fn2 = fn.bind(undefined,123,456)
+        const fn2 = fn.bind2(undefined,123,456)
         obj = new fn2()
         assert(obj.p1 === 123)
         assert(obj.p2 === 456)

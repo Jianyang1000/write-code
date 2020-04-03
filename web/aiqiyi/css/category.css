@@ -1,0 +1,247 @@
+
+header {
+    height: 44px;
+    background-color: #191919;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    display: inline-block;
+    width: 73px;
+    height: 24px;
+    background: url('../img/iqiyi-logo.png') no-repeat;
+    background-size: 73px 24px;
+    margin-left: 13px;
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+
+header .right a:first-child {
+    color: #b0b0b0;
+    font-size: 13px;
+    margin-right: 13px;
+}
+
+header .right a:last-child {
+    display:inline-block;
+    background: url('../img/watch_more2.png') no-repeat;
+    width: 59px;
+    height: 20px;
+    background-size: 59px 20px;
+    vertical-align: bottom;
+    margin-right: 12px;
+}
+
+
+main {
+    padding-top: 44px;
+}
+
+main h2 {
+    color: #999;
+    font-size: 12px;
+    background-color: #f7f7f7;
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+main > .category_link > div{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+main > .category_link > div:last-child {
+    border-bottom: none;
+}
+
+
+main > .category_link > div > div{
+    flex-shrink: 0;
+    width: 33.333333%;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.category_link > div > div > p{
+    color: #666;
+    font-size: 14px;
+}
+.category_link > div > div i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('../img/category_srpite.png');
+    background-size: 300px 350px;
+}
+
+.category_link .dianshiju {
+    background-position: 0 0;
+}
+
+.category_link .dianying {
+    background-position: -50px 0;
+}
+
+.category_link .jilupian {
+    background-position: -150px 0;
+}
+
+.category_link .yingxun {
+    background-position: -250px 0;
+}
+
+.category_link .pianhua {
+    background-position: -100px 0;
+}
+
+.category_link .wangluo {
+    background-position: -200px 0;
+}
+
+.category_link .zongyi {
+    background-position: 0 -50px;
+}
+
+.category_link .dongman {
+    background-position: -50px -50px;
+}
+
+.category_link .tuokou {
+    background-position: -100px -50px;
+}
+
+.category_link .yule {
+    background-position: -150px -50px;
+}
+
+.category_link .gaoxiao {
+    background-position: -200px -50px;
+}
+
+.category_link .yinyue {
+    background-position: -250px -50px;
+}
+
+.category_link .qixiu {
+    background-position: -200px -250px;
+}
+
+.category_link .zhibo {
+    background-position: -250px -100px;
+}
+
+.category_link .quanwang {
+    background-position: -250px 0;
+}
+
+.category_link .youxi {
+    background-position: 0 -100px;
+}
+
+.category_link .redian {
+    background-position: -50px -100px;
+}
+
+.category_link .fengyun {
+    background-position: -100px -100px;
+}
+
+.category_link .zixun {
+    background-position: -150px -100px;
+}
+
+.category_link .yuanchuang {
+    background-position: -200px -100px;
+}
+
+.category_link .aiqiyi {
+    background-position: 0 -250px;
+}
+
+.category_link .ertong {
+    background-position: 0px -150px;
+}
+
+.category_link .muying {
+    background-position: -50px -150px;
+}
+
+.category_link .zhishi {
+    background-position: -100px -150px;
+}
+
+.category_link .jiankang {
+    background-position: -150px -150px;
+}
+
+.category_link .shenghuo {
+    background-position: -200px -150px;
+}
+
+.category_link .tiyu {
+    background-position: -250px -150px;
+}
+
+.category_link .keji {
+    background-position: 0 -200px;
+}
+
+.category_link .junshi {
+    background-position: -50px -200px;
+}
+
+.category_link .qiche {
+    background-position: -100px -200px;
+}
+
+.category_link .caijing {
+    background-position: -150px -200px;
+}
+
+.category_link .lvyou {
+    background-position: -200px -200px;
+}
+
+.category_link .shishang {
+    background-position: -250px -200px;
+}
+
+.category_link .yanchu {
+    background-position: 0 -300px;
+}
+
+.category_link .guanggao {
+    background-position: -100px -250px;
+}
+
+.category_link .gongyi {
+    background-position: -150px -250px;
+}
+
+
+
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100px;
+}

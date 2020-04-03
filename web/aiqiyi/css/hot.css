@@ -1,0 +1,36 @@
+.hot_img {
+    width: 375px;
+}
+
+.hot_img img{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.personInfo{
+    padding: 10px 0 10px 12px;
+    display: flex;
+    align-items: center;
+
+}
+.personInfo img{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.personInfo .name{
+    font-size: 12px;
+    color: #666;
+    margin-right: 6px;
+}
+.personInfo .attention{
+    color: #20bc22;
+    font-size: 12px;
+}
+
+.tool{}
+.tool > a{}
+.tool > a > i{}

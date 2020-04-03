@@ -1,0 +1,66 @@
+.banner {
+    width: 375px;
+}
+
+
+
+.banner .banner_img img{
+    display: block;
+    width: 100%;    
+}
+
+
+.banner .film_title{
+    padding: 8px 0 8px 12px;
+}
+.banner .film_title p{
+    color: #999;
+    font-size: 12px;
+}
+.banner .film_title h2{
+    color: #333;
+    font-size: 14px;
+}
+
+
+
+.introduce{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.introduce > div{
+    width: 123px;
+    flex-shrink: 0;
+}
+
+.introduce > div .film_img:before {
+    content: '';
+    display: block;
+    padding-top: 164px;
+    background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
+    background-size: 40px auto;
+}
+
+.introduce > div .film_img img{
+    display: block;
+    width: 100%;
+    margin-top: -164px;
+}
+.introduce > div .film_title{
+    padding: 8px 0 8px 12px;
+}
+.introduce > div .film_title h2{
+    color: #333;
+    font-size: 14px;
+    overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+}
+.introduce > div .film_title p{
+    color: #999;
+    font-size: 12px;
+    overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+}

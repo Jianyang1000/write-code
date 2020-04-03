@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="ai-header-wrap">
+        <div class="site-header">
+            <a href="/" class="header-logo"></a>
+            <div class="search-box">
+                <span class="search-input">
+                    青春有你
+                </span>
+                <a href="#" class="header-search">
+                    <i></i>
+                </a>
+            </div>
+            <a href="./my.html" class="header-login">
+                <i></i>
+            </a>
+            <div class="header-app">
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="site-nav">
+            <div class="nav-list-wrap">
+                <ul class="nav-list">
+                    <li><a href="#" class="selected" data-pagesrc="./home.html">精选</a></li>
+                    <li><a href="#" data-pagesrc="./hot.html">热点</a></li>
+                    <li><a href="#" data-pagesrc="./film.html">电影</a></li>
+                    <li><a href="#">电视剧</a></li>
+                    <li><a href="#">儿童</a></li>
+                    <li><a href="#">综艺</a></li>
+                    <li><a href="#">动漫</a></li>
+                    <li><a href="#">直播</a></li>
+                    <li><a href="#">咨询</a></li>
+                    <li><a href="#">爱奇艺</a></li>
+                    <li><a href="#">娱乐</a></li>
+                    <li><a href="#">原创</a></li>
+                </ul>
+            </div>
+            <a href="./category.html" class="category">
+                <i></i>
+            </a>
+        </div>
+    </section>
+    <div class="page">
+        <iframe src="./home.html" id="page_iframe" frameborder="0"></iframe>
+    </div>
+    <script>
+        let iframe = document.getElementById('page_iframe')
+        let nav_list = document.querySelector('.nav-list')
+        let links = document.querySelectorAll('.nav-list a')
+        nav_list.addEventListener('click', (e) => {
+
+            if (e.target.dataset.pagesrc !== undefined && e.target.dataset.pagesrc !== iframe.src) {
+                links.forEach((link) => {
+                    link.classList.remove('selected')
+                })
+                e.target.classList.add('selected')
+                iframe.src = e.target.dataset.pagesrc
+            }
+        }, false)
+    </script>
+</body>
+
+</html>

@@ -7,7 +7,7 @@ var url = require("url");
 module.exports.listen = function (cacheAge, port) {
     if (cacheAge === void 0) { cacheAge = 3600 * 24; }
     if (port === void 0) { port = 8080; }
-    console.log(1);
+    
     var homeDir = p.resolve(__dirname, 'public');
     var server = http.createServer();
     //@ts-ignore
