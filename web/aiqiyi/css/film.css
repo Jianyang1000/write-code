@@ -1,5 +1,5 @@
 .banner {
-    width: 375px;
+    width: 100vw;
 }
 
 
@@ -11,15 +11,15 @@
 
 
 .banner .film_title{
-    padding: 8px 0 8px 12px;
+    padding: 2.13333vw 0 2.13333vw 3.2vw;
 }
 .banner .film_title p{
     color: #999;
-    font-size: 12px;
+    font-size: 3.2vw;
 }
 .banner .film_title h2{
     color: #333;
-    font-size: 14px;
+    font-size: 3.73333vw;
 }
 
 
@@ -30,36 +30,36 @@
     flex-wrap: wrap;
 }
 .introduce > div{
-    width: 123px;
+    width: 32.8vw;
     flex-shrink: 0;
 }
 
 .introduce > div .film_img:before {
     content: '';
     display: block;
-    padding-top: 164px;
+    padding-top: 43.73333vw;
     background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
-    background-size: 40px auto;
+    background-size: 10.66667vw auto;
 }
 
 .introduce > div .film_img img{
     display: block;
     width: 100%;
-    margin-top: -164px;
+    margin-top: -43.73333vw;
 }
 .introduce > div .film_title{
-    padding: 8px 0 8px 12px;
+    padding: 2.13333vw 0 2.13333vw 3.2vw;
 }
 .introduce > div .film_title h2{
     color: #333;
-    font-size: 14px;
+    font-size: 3.73333vw;
     overflow:hidden;
 text-overflow:ellipsis;
 white-space:nowrap;
 }
 .introduce > div .film_title p{
     color: #999;
-    font-size: 12px;
+    font-size: 3.2vw;
     overflow:hidden;
 text-overflow:ellipsis;
 white-space:nowrap;

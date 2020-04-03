@@ -57,10 +57,10 @@ html,body {
 .header-search i {
     display: inline-block;
     background: url('../img/sprite.png') no-repeat;
-    background-size: 84px auto;
-    background-position: 0 -24px;
-    width: 15px;
-    height: 15px;
+    background-size: 22.4vw auto;
+    background-position: 0 -6.4vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 .header-login {
@@ -75,10 +75,10 @@ html,body {
 .header-login i{
     display: inline-block;
     background: url('../img/sprite.png') no-repeat;
-    background-size: 84px auto;
-    background-position: -16px -24px;
-    width: 18px;
-    height: 18px;
+    background-size: 22.4vw auto;
+    background-position: -4.26667vw -6.4vw;
+    width: 4.8vw;
+    height: 4.8vw;
 }
 
 
@@ -157,24 +157,24 @@ html,body {
 
 .category {
     display: inline-block;
-    padding-right: 16px;
-    padding-bottom: 2px;
+    padding-right: 4.26667vw;
+    padding-bottom: 0.53333vw;
     
 }
 
 .category i {
     background: url('../img/sprite.png') no-repeat;
-    background-position: -36px -27.5px;
-    width: 15px;
-    height: 12px;
+    background-position: -9.6vw -7.33333vw;
+    width: 4vw;
+    height: 3.2vw;
     display: inline-block;
-    background-size: 84px auto; 
+    background-size: 22.4vw auto; 
 }
 
 .page {
     width: 100%;
     height: 100%;
-    padding-top: 84px;
+    padding-top: 22.4vw;
 }
 #page_iframe {
     width: 100%;

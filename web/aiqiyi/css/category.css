@@ -1,6 +1,6 @@
 
 header {
-    height: 44px;
+    height: 11.73333vw;
     background-color: #191919;
     position: fixed;
     width: 100%;
@@ -11,11 +11,11 @@ header {
 
 header .logo a {
     display: inline-block;
-    width: 73px;
-    height: 24px;
+    width: 19.46667vw;
+    height: 6.4vw;
     background: url('../img/iqiyi-logo.png') no-repeat;
-    background-size: 73px 24px;
-    margin-left: 13px;
+    background-size: 19.46667vw 6.4vw;
+    margin-left: 3.46667vw;
 }
 
 header .right {
@@ -26,31 +26,31 @@ header .right {
 
 header .right a:first-child {
     color: #b0b0b0;
-    font-size: 13px;
-    margin-right: 13px;
+    font-size: 3.46667vw;
+    margin-right: 3.46667vw;
 }
 
 header .right a:last-child {
     display:inline-block;
     background: url('../img/watch_more2.png') no-repeat;
-    width: 59px;
-    height: 20px;
-    background-size: 59px 20px;
+    width: 15.73333vw;
+    height: 5.33333vw;
+    background-size: 15.73333vw 5.33333vw;
     vertical-align: bottom;
-    margin-right: 12px;
+    margin-right: 3.2vw;
 }
 
 
 main {
-    padding-top: 44px;
+    padding-top: 11.73333vw;
 }
 
 main h2 {
     color: #999;
-    font-size: 12px;
+    font-size: 3.2vw;
     background-color: #f7f7f7;
-    padding-left: 15px;
-    line-height: 25px;
+    padding-left: 4vw;
+    line-height: 6.66667vw;
 }
 
 main > .category_link > div{
@@ -67,7 +67,7 @@ main > .category_link > div:last-child {
 main > .category_link > div > div{
     flex-shrink: 0;
     width: 33.333333%;
-    height: 88px;
+    height: 23.46667vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,14 +77,14 @@ main > .category_link > div > div{
 
 .category_link > div > div > p{
     color: #666;
-    font-size: 14px;
+    font-size: 3.73333vw;
 }
 .category_link > div > div i{
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 13.33333vw;
+    height: 13.33333vw;
     background: url('../img/category_srpite.png');
-    background-size: 300px 350px;
+    background-size: 80vw 93.33333vw;
 }
 
 .category_link .dianshiju {
@@ -92,156 +92,156 @@ main > .category_link > div > div{
 }
 
 .category_link .dianying {
-    background-position: -50px 0;
+    background-position: -13.33333vw 0;
 }
 
 .category_link .jilupian {
-    background-position: -150px 0;
+    background-position: -40vw 0;
 }
 
 .category_link .yingxun {
-    background-position: -250px 0;
+    background-position: -66.66667vw 0;
 }
 
 .category_link .pianhua {
-    background-position: -100px 0;
+    background-position: -26.66667vw 0;
 }
 
 .category_link .wangluo {
-    background-position: -200px 0;
+    background-position: -53.33333vw 0;
 }
 
 .category_link .zongyi {
-    background-position: 0 -50px;
+    background-position: 0 -13.33333vw;
 }
 
 .category_link .dongman {
-    background-position: -50px -50px;
+    background-position: -13.33333vw -13.33333vw;
 }
 
 .category_link .tuokou {
-    background-position: -100px -50px;
+    background-position: -26.66667vw -13.33333vw;
 }
 
 .category_link .yule {
-    background-position: -150px -50px;
+    background-position: -40vw -13.33333vw;
 }
 
 .category_link .gaoxiao {
-    background-position: -200px -50px;
+    background-position: -53.33333vw -13.33333vw;
 }
 
 .category_link .yinyue {
-    background-position: -250px -50px;
+    background-position: -66.66667vw -13.33333vw;
 }
 
 .category_link .qixiu {
-    background-position: -200px -250px;
+    background-position: -53.33333vw -66.66667vw;
 }
 
 .category_link .zhibo {
-    background-position: -250px -100px;
+    background-position: -66.66667vw -26.66667vw;
 }
 
 .category_link .quanwang {
-    background-position: -250px 0;
+    background-position: -66.66667vw 0;
 }
 
 .category_link .youxi {
-    background-position: 0 -100px;
+    background-position: 0 -26.66667vw;
 }
 
 .category_link .redian {
-    background-position: -50px -100px;
+    background-position: -13.33333vw -26.66667vw;
 }
 
 .category_link .fengyun {
-    background-position: -100px -100px;
+    background-position: -26.66667vw -26.66667vw;
 }
 
 .category_link .zixun {
-    background-position: -150px -100px;
+    background-position: -40vw -26.66667vw;
 }
 
 .category_link .yuanchuang {
-    background-position: -200px -100px;
+    background-position: -53.33333vw -26.66667vw;
 }
 
 .category_link .aiqiyi {
-    background-position: 0 -250px;
+    background-position: 0 -66.66667vw;
 }
 
 .category_link .ertong {
-    background-position: 0px -150px;
+    background-position: 0px -40vw;
 }
 
 .category_link .muying {
-    background-position: -50px -150px;
+    background-position: -13.33333vw -40vw;
 }
 
 .category_link .zhishi {
-    background-position: -100px -150px;
+    background-position: -26.66667vw -40vw;
 }
 
 .category_link .jiankang {
-    background-position: -150px -150px;
+    background-position: -40vw -40vw;
 }
 
 .category_link .shenghuo {
-    background-position: -200px -150px;
+    background-position: -53.33333vw -40vw;
 }
 
 .category_link .tiyu {
-    background-position: -250px -150px;
+    background-position: -66.66667vw -40vw;
 }
 
 .category_link .keji {
-    background-position: 0 -200px;
+    background-position: 0 -53.33333vw;
 }
 
 .category_link .junshi {
-    background-position: -50px -200px;
+    background-position: -13.33333vw -53.33333vw;
 }
 
 .category_link .qiche {
-    background-position: -100px -200px;
+    background-position: -26.66667vw -53.33333vw;
 }
 
 .category_link .caijing {
-    background-position: -150px -200px;
+    background-position: -40vw -53.33333vw;
 }
 
 .category_link .lvyou {
-    background-position: -200px -200px;
+    background-position: -53.33333vw -53.33333vw;
 }
 
 .category_link .shishang {
-    background-position: -250px -200px;
+    background-position: -66.66667vw -53.33333vw;
 }
 
 .category_link .yanchu {
-    background-position: 0 -300px;
+    background-position: 0 -80vw;
 }
 
 .category_link .guanggao {
-    background-position: -100px -250px;
+    background-position: -26.66667vw -66.66667vw;
 }
 
 .category_link .gongyi {
-    background-position: -150px -250px;
+    background-position: -40vw -66.66667vw;
 }
 
 
 
 
 footer {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     text-align: center;
 }
 
 footer img {
     display: inline-block;
     vertical-align: bottom;
-    width: 100px;
+    width: 26.66667vw;
 }

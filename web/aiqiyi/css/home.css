@@ -11,7 +11,7 @@
 }
 
 .carouselImg > li{
-    width: 375px;
+    width: 100vw;
     flex-shrink: 0;
 }
 .carouselImg > li > img{
@@ -24,15 +24,15 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    padding-bottom: 12px;
-    padding-right: 10px;
+    padding-bottom: 3.2vw;
+    padding-right: 2.66667vw;
     display: flex;
 }
 
 .carouselTool > li {
-    width: 7px;
-    height: 3px;
-    margin-left: 3px;
+    width: 1.86667vw;
+    height: 0.8vw;
+    margin-left: 0.8vw;
     background-color: rgba(255,255,255,0.2);
 }
 
@@ -41,16 +41,16 @@
 }
 
 .content_box {
-    padding: 10px;
+    padding: 2.66667vw;
 }
 
 .open_app {
-    padding-bottom: 10px;
+    padding-bottom: 2.66667vw;
 }
 
 .open_app img{
-    width: 355px;
-    height: 50px;
+    width: 94.66667vw;
+    height: 13.33333vw;
     vertical-align: bottom;
 }
 
@@ -61,61 +61,61 @@
 }
 
 .introduce > div {
-    width: 175px;
+    width: 46.66667vw;
 }
 
 .introduce > div .title_img > img {
     display: block;
-    margin-top: -101px;
+    margin-top: -26.93333vw;
     width: 100%;
 }
 
 .introduce > div .title_img {
-    width: 175px;
-    height: 99px;
+    width: 46.66667vw;
+    height: 26.4vw;
 }
 
 .introduce > div .title_img:before {
     content: '';
     display: block;
-    padding-top: 101px;
+    padding-top: 26.93333vw;
     background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
-    background-size: 40px auto;
+    background-size: 10.66667vw auto;
 }
 
 .introduce > div > .introduceInfo {
-    padding: 5px 8px 18px 2px;
+    padding: 1.33333vw 2.13333vw 4.8vw 0.53333vw;
 }
 
 .introduce > div > .introduceInfo > h2 {
     color: #333;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 4vw;
+    line-height: 5.33333vw;
 }
 
 .introduce > div > .introduceInfo > p {
     color: #999;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 3.46667vw;
+    line-height: 4vw;
 }
 
 
 .history_title {
     display: flex;
     justify-content: space-between;
-    padding: 7px 2px;
-    line-height: 38px;
+    padding: 1.86667vw 0.53333vw;
+    line-height: 10.13333vw;
 }
 
 .history_title .title{
-    font-size: 15px;
+    font-size: 4vw;
     color: #333;
     font-weight: 700;
 }
 
 .history_title .all {
     color: #666;
-    font-size: 13px;
+    font-size: 3.46667vw;
 }
 
 
@@ -126,40 +126,40 @@
 }
 
 .history_watch_content > div {
-    width: 175px;
+    width: 46.66667vw;
 }
 
 .history_watch_content > div .title_img > img {
     display: block;
-    margin-top: -101px;
-    width: 175px;
+    margin-top: -26.93333vw;
+    width: 46.66667vw;
 }
 
 .history_watch_content > div .title_img {
-    width: 175px;
-    height: 99px;
+    width: 46.66667vw;
+    height: 26.4vw;
 }
 
 .history_watch_content > div .title_img:before {
     content: '';
     display: block;
-    padding-top: 101px;
+    padding-top: 26.93333vw;
     background:#f8f8f8  url('../img/img_logo.png') center center no-repeat;
-    background-size: 40px auto;
+    background-size: 10.66667vw auto;
 }
 
 .history_watch_content > div > .introduceInfo {
-    padding: 5px 8px 18px 2px;
+    padding: 1.33333vw 2.13333vw 4.8vw 0.53333vw;
 }
 
 .history_watch_content > div > .introduceInfo > h2 {
     color: #333;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 4vw;
+    line-height: 5.33333vw;
 }
 
 .history_watch_content > div > .introduceInfo > p {
     color: #999;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 3.46667vw;
+    line-height: 4vw;
 }

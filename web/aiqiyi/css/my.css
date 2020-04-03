@@ -1,5 +1,5 @@
 header {
-    height: 44px;
+    height: 11.73333vw;
     background-color: #191919;
     position: fixed;
     width: 100%;
@@ -10,11 +10,11 @@ header {
 
 header .logo a {
     display: inline-block;
-    width: 73px;
-    height: 24px;
+    width: 19.46667vw;
+    height: 6.4vw;
     background: url('../img/iqiyi-logo.png') no-repeat;
-    background-size: 73px 24px;
-    margin-left: 13px;
+    background-size: 19.46667vw 6.4vw;
+    margin-left: 3.46667vw;
 }
 
 header .right {
@@ -25,34 +25,34 @@ header .right {
 
 header .right a:first-child {
     color: #b0b0b0;
-    font-size: 13px;
-    margin-right: 13px;
+    font-size: 3.46667vw;
+    margin-right: 3.46667vw;
 }
 
 header .right a:last-child {
     display:inline-block;
     background: url('../img/watch_more2.png') no-repeat;
-    width: 59px;
-    height: 20px;
-    background-size: 59px 20px;
+    width: 15.73333vw;
+    height: 5.33333vw;
+    background-size: 15.73333vw 5.33333vw;
     vertical-align: bottom;
-    margin-right: 12px;
+    margin-right: 3.2vw;
 }
 
 
 .person_info {
-    padding: 64px 0 15px 12px;
+    padding: 17.06667vw 0 4vw 3.2vw;
     display: flex;
     align-items:flex-start;
 }
 
 .person_info .name {
-    font-size: 15px;
+    font-size: 4vw;
 }
 
 .person_info > div {
     display: flex;
-    margin-top: 10px;
+    margin-top: 2.66667vw;
     flex-direction: column;
     justify-content: center;
 }
@@ -60,54 +60,54 @@ header .right a:last-child {
 
 .person_info i {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 6.4vw;
+    height: 6.4vw;
     background: url('../img/vip-grade-icon.png') no-repeat;
-    background-size: 192px 48px;
-    background-position: -48px -24px;
+    background-size: 51.2vw 12.8vw;
+    background-position: -12.8vw -6.4vw;
 }
 
 .person_info img{
     display:inline-block;
-    width: 60px;
-    height: 60px;
+    width: 16vw;
+    height: 16vw;
     vertical-align: bottom;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 4vw;
 
 }
 
 .play_record {
-    border-top: 7px solid #f7f7f7;
+    border-top: 1.86667vw solid #f7f7f7;
 }
 
 
 .play_record .do_title{
     display: flex;
     align-items: center;
-    font-size: 15px;
-    line-height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 4vw;
+    line-height: 13.33333vw;
+    padding-left: 2.66667vw;
+    padding-right: 2.66667vw;
 }
 
 .play_record > ul > li img{
-    width: 105px;
+    width: 28vw;
 }
 
 .play_record > ul {
     display: flex;
-    width: 375px;
+    width: 100vw;
     overflow: scroll;
 }
 
 .play_record > ul > li {
-    padding-left: 8px;
+    padding-left: 2.13333vw;
 }
 
 .play_record > ul > li > p {
     color: #333;
-    font-size: 14px;
+    font-size: 3.73333vw;
     overflow: hidden;
     text-overflow: ellipsis;
     display:-webkit-box;
@@ -116,28 +116,28 @@ header .right a:last-child {
 }
 
 .play_record > ul > li:first-child {
-    padding-left: 3px;
+    padding-left: 0.8vw;
 }
 
 
 .bofang {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 5.33333vw;
+    height: 5.33333vw;
     background: url('../img/my_sprite.png') no-repeat;
-    background-size: 160px 80px;
-    margin-right: 8px;
-    background-position: -20px 0;
+    background-size: 42.66667vw 21.33333vw;
+    margin-right: 2.13333vw;
+    background-position: -5.33333vw 0;
 }
 
 .do > li {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
-    font-size: 15px;
-    line-height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 4vw;
+    line-height: 13.33333vw;
+    padding-left: 2.66667vw;
+    padding-right: 2.66667vw;
 }
 
 .do > li:first-child {
@@ -155,72 +155,72 @@ header .right a:last-child {
 
 .do .img_wrap img {
     display: inline-block;
-    width: 105px;
+    width: 28vw;
 }
 
 
 
 .do > li i{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 5.33333vw;
+    height: 5.33333vw;
     background: url('../img/my_sprite.png') no-repeat;
-    background-size: 160px 80px;
-    margin-right: 8px;
+    background-size: 42.66667vw 21.33333vw;
+    margin-right: 2.13333vw;
 }
 
 
 .do .dianzan {
-    background-position: -120px -40px;
+    background-position: -32vw -10.66667vw;
 }
 
 .do .shoucang {
-    background-position: -40px 0;
+    background-position: -10.66667vw 0;
 }
 
 .do .guanzhu {
-    background-position: -60px 0;
+    background-position: -16vw 0;
 }
 
 .do .zhanghu {
-    background-position: -80px 0;
+    background-position: -21.33333vw 0;
 }
 
 .do .zhuiju {
-    background-position: -100px 0;
+    background-position: -26.66667vw 0;
 }
 
 .do .jieqian {
-    background-position: -20px -60px;
+    background-position: -5.33333vw -16vw;
 }
 
 .do .xinyong {
-    background-position: -140px -40px;
+    background-position: -37.33333vw -10.66667vw;
 }
 
 .do .anquan {
-    background-position: -120px 0;
+    background-position: -32vw 0;
 }
 
 .do .yinsi {
-    background-position: -100px -40px;
+    background-position: -26.66667vw -10.66667vw;
 }
 
 .do .yijian {
-    background-position: 0 -60px;
+    background-position: 0 -16vw;
 }
 
 .do .about {
-    background-position: -140px 0;
+    background-position: -37.33333vw 0;
 }
 
 .do .bold_border {
-    border-bottom: 7px solid #f7f7f7;
+    border-bottom: 1.86667vw solid #f7f7f7;
 }
 
 footer {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     text-align: center;
     background-color: #f7f7f7;
 }
@@ -228,5 +228,5 @@ footer {
 footer img {
     display: inline-block;
     vertical-align: bottom;
-    width: 100px;
+    width: 26.66667vw;
 }

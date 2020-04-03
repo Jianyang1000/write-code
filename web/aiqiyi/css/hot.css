@@ -1,5 +1,5 @@
 .hot_img {
-    width: 375px;
+    width: 100vw;
 }
 
 .hot_img img{
@@ -9,7 +9,7 @@
 }
 
 .personInfo{
-    padding: 10px 0 10px 12px;
+    padding: 2.66667vw 0 2.66667vw 3.2vw;
     display: flex;
     align-items: center;
 
@@ -17,18 +17,18 @@
 .personInfo img{
     display: inline-block;
     vertical-align: bottom;
-    width: 30px;
+    width: 8vw;
     border-radius: 50%;
-    margin-right: 6px;
+    margin-right: 1.6vw;
 }
 .personInfo .name{
-    font-size: 12px;
+    font-size: 3.2vw;
     color: #666;
-    margin-right: 6px;
+    margin-right: 1.6vw;
 }
 .personInfo .attention{
     color: #20bc22;
-    font-size: 12px;
+    font-size: 3.2vw;
 }
 
 .tool{}
