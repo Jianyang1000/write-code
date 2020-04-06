@@ -2,11 +2,21 @@
     width: 100vw;
 }
 
+.banner .banner_img {
+    width: 100%;
+    height: 50vw;
+}
 
+.banner .banner_img:before {
+    content:'';
+    display: block;
+    padding-top: 50vw;
+}
 
 .banner .banner_img img{
     display: block;
     width: 100%;    
+    margin-top: -50vw;
 }
 
 
@@ -32,6 +42,12 @@
 .introduce > div{
     width: 32.8vw;
     flex-shrink: 0;
+}
+
+
+.introduce > div .film_img {
+    width: 100%;
+    height: 43.73333vw;
 }
 
 .introduce > div .film_img:before {

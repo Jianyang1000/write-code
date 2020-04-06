@@ -29,6 +29,7 @@ describe('apply' ,() => {
             return [this,arguments[0],arguments[1]]
         }
         let obj = {name: 'jianyang'}
+        console.log(fn.apply2(obj,[1,2])[0])
         assert(fn.apply2(obj,[1,2])[0] === obj)
         assert(fn.apply2(obj,[1,2])[1] === 1)
         assert(fn.apply2(obj,[1,2])[2] === 2)

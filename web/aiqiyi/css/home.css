@@ -12,12 +12,20 @@
 
 .carouselImg > li{
     width: 100vw;
+    height: 50vw;
     flex-shrink: 0;
+    overflow: hidden;
+}
+.carouselImg > li:before{
+    content: '';
+    display: block;
+    padding-top: 50vw;
+    background-color: #ccc;
 }
 .carouselImg > li > img{
-    display: inline-block;
+    display: block;
     width: 100%;
-    vertical-align: bottom;
+    margin-top: -50vw;
 }
 
 .carouselTool {

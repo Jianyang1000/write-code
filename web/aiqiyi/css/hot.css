@@ -1,11 +1,18 @@
 .hot_img {
     width: 100vw;
+    height: 55.46667vw;
+}
+
+.hot_img:before {
+    content: '';
+    display: block;
+    padding-top: 55.46667vw;
 }
 
 .hot_img img{
-    display: inline-block;
-    vertical-align: bottom;
+    display: block;
     width: 100%;
+    margin-top: -55.46667vw;
 }
 
 .personInfo{

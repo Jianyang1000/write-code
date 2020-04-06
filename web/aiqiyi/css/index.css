@@ -156,10 +156,9 @@ html,body {
 }
 
 .category {
-    display: inline-block;
+    display: flex;
     padding-right: 4.26667vw;
-    padding-bottom: 0.53333vw;
-    
+    align-items: center;
 }
 
 .category i {
