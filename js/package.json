@@ -1,0 +1,24 @@
+{
+  "name": "mianshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bind": "mocha bind/test/**/*.js",
+    "deepClone": "mocha deepClone/test/**/*.js",
+    "apply": "mocha apply/test/**/*.js",
+    "call": "mocha call/test/**/*.js",
+    "new": "mocha new/test/**/*.js",
+    "instanceOf": "mocha instanceOf/test/**/*.js",
+    "promise": "mocha promise/test/**/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.1",
+    "sinon-chai": "^3.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
